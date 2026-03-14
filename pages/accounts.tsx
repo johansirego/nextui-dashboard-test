@@ -1,8 +1,20 @@
-import React from 'react';
-import {Accounts} from '../components/accounts';
+import type {NextPage} from 'next';
 
-const accounts = () => {
-   return <Accounts />;
+const Accounts: NextPage = () => {
+  return (
+    <main style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      minHeight: '100vh',
+      padding: '2rem',
+      fontFamily: 'system-ui, sans-serif',
+    }}>
+      <h1>Accounts Page</h1>
+      <p>This is a simplified placeholder page.</p>
+    </main>
+  );
 };
 
-export default accounts;
+export default Accounts;
