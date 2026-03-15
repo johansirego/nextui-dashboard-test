@@ -5,7 +5,7 @@ const Home: NextPage = () => {
     <main className="page">
       <section className="hero">
         <div className="hero-content">
-          <h1>Next.js Dashboard (Prod Env)</h1>
+          <h1>Next.js Dashboard (Prod Environment)</h1>
           <p>Clean, minimal, and ready for experimentation.</p>
           <div className="hero-actions">
             <a className="button" href="#features">
